@@ -2,11 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    Hello
+    <div class="main-heading">
+      <p>Tic-Tac-Toe</p>
+      <div>
+        <button class="play-button">Play</button>
+      </div>
+    </div>
+    <div class="popup-game">
+      <div class="container">
+        <div class="game-container">
+          <div class="boxes bt-0 bl-0"><span class="boxtext"></span></div>
+          <div class="boxes bt-0"><span class="boxtext"></span></div>
+          <div class="boxes br-0 bt-0"><span class="boxtext"></span></div>
+          <div class="boxes bl-0"><span class="boxtext"></span></div>
+          <div class="boxes"><span class="boxtext"></span></div>
+          <div class="boxes br-0"><span class="boxtext"></span></div>
+          <div class="boxes bl-0 bb-0"><span class="boxtext"></span></div>
+          <div class="boxes bb-0"><span class="boxtext"></span></div>
+          <div class="boxes bb-0 br-0"><span class="boxtext"></span></div>
+        </div>
+        <div class="game-info">
+          <div class="won-info"></div>
+          <div><button id="back-button" class="btn">Back</button></div>
+          <div><button id="reset" class="btn">Reset</button></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

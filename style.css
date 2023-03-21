@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFF2CC;
+}
+
+.main-heading{
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.main-heading p{
+  font-family: 'Pacifico', cursive;
+  font-size: 7.5rem;
+}
+
+.play-button{
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  background-color: #FFF2CC;
+  border-radius: 1rem;
+}
+
+.play-button:hover{
+  background-color: rgba(73, 49, 77, 0.699);
+}
+
+.popup-game{
+  display: none;
+  
+}
+
+.container{
+  display: flex;
+  
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.game-container{
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+}
+
+.boxes{
+  border:2px solid black;
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes:hover{
+  background-color: rgb(219, 130, 130);
+}
+
+.game-info{
+  padding: 0 50px;
+  
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn{
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  background-color: #FFF2CC;
+  border-radius: 1rem;
+}
+
+.btn:hover{
+  background-color: rgb(233, 172, 172);
+}
+
+.br-0{
+  border-right: 0;
+}
+
+.bl-0{
+  border-left: 0;
+}
+
+.bt-0{
+  border-top: 0;
+}
+
+.bb-0{
+  border-bottom: 0;
+}
+
+.won-info{
+  font-size: 3rem;
+}
