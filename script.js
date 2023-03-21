@@ -86,7 +86,7 @@ function random() {
       boxtext[e[0]].innerText !== ""
     ) {
       document.querySelector(".won-info").innerText =
-        "Player" + boxtext[e[0]].innerText + " Won";
+        "Player " + boxtext[e[0]].innerText + " Won";
       isgameover = true;
     }
   });
